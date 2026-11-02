@@ -1,0 +1,12 @@
+<!--1.What is the difference between readyState and status in XMLHttpRequest?
+‎
+‎First, readyState determines the current stage of the XMLHttpRequest, from when it has not yet started until the request is completed. The status is the result or response from the server to your request
+‎
+‎2. How can you make the request asynchronous?
+‎
+‎xhr.open("GET", "data.php", true); xhr.send();
+‎
+‎true means the request is asynchronous, so the webpage can continue working while waiting for the response. Meanwhile, xhr.send(); sends the request to the server and waits for the user to click the "Load Post Data" button before the request is triggered.
+‎
+‎Why is asynchronous communication recommended for web applications?
+‎Asynchronous communication is recommended because it helps keep the webpage responsive while waiting for a response from the server
